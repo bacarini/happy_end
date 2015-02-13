@@ -2,34 +2,34 @@
 
 Descrição
 ---------
-Sistema para agendamento de massagens.
+Sistema de agendamento e gerenciamento dos horários de massagens dos Locawebers.
 
 Motivadores
 -----------
-Ter um sistema justo, prático e fácil para agendamento da massagem para os Locawebers. Provendo uma administração para o controle do processo, garantindo uma maior eficácia do benefício. 
+Tornar mais justo, prático e fácil o agendamento de massagem para os Locawebers, através de um sistema que ajude a administração e controle do processo, garantindo uma maior eficácia do benefício. Assim, a iniciativa se torna acessível ao maior número possível de pessoas.
 
 Escopo
 ------
-- Permitir o agendamento e consultas web e mobile das massagens.
+- Permitir o agendamento e consultas de horários das massagens via web e mobile.
 - Autenticação com usuário e senha de rede. (Sistema padrão de autenticação Locaweb).
 - Gerenciamento da agenda dos massagistas.
 - Travar o acesso fora da rede Locaweb.
 - (Report) Ranking dos mais utilizados.
-- Controle de "punição" para ausência.
-- Gerenciamento (RH) do sistema: 
+- Criação e controle de um sistema de "punição" para o não comparecimento em horários marcados.
+- Gerenciamento (RH) do sistema:
   * Cadastro de massagistas.
-  * Das punições. 
+  * Das punições.
 
 Regras de punição
 -----------------
-- 1 ausência = 1 semana sem marcar massagem.
-- 2 ausências consecutivas = 3 semana sem marcar massagem.
-- 3 ausências consecutivas = 1 mês sem marcar massagem.
-- 4 ausências consecutivas = O usuário será bloqueado.
-- O RH a qualquer momento poderá anular as ausências e/ou desbloquear o usuário.
-- A pontuação irá zerar se na próxima consulta se a pessoa comparecer e se a mesma já não estiver com 4 ausências.
+- 1 ausência = 1 semana sem poder marcar a próxima massagem.
+- 2 ausências consecutivas = 3 semanas sem poder marcar a próxima massagem.
+- 3 ausências consecutivas = 1 mês sem poder marcar a próxima massagem.
+- 4 ausências consecutivas = O usuário será bloqueado e não poderá marcar mais massagens.
+- O RH poderá anular as ausências e/ou desbloquear o usuário a qualquer momento diante da solicitação do Locaweber.
+- Caso a pessoa compareça ao próximo agendamento, a pontuação será zerada se não existirem 4 ausências consecutivas anteriormente em seu nome.
 
 Regras de massagem
 ------------------
-- Cada Locaweber poderá agendar uma massagem por semana. Isso fará com que mais pessoas tenham oportunidade para conseguir o agendamento.
-- O sistema permitirá marcar a semana corrent e a próxima semana.
+- Cada Locaweber poderá agendar uma massagem por semana. Isso deixará o benefício mais bem distribuído, igualando a oportunidade de todos em conseguir um horário.  
+- O sistema permitirá marcar horário da semana corrente e da seguinte.
